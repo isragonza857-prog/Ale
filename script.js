@@ -1,5 +1,5 @@
 const mensajesAlejandra = [
-   { titulo: "Razón #1: Tú forma de ser", mensaje: "Amo que seas completamente tú, mr fascina como ves al mundo y como contagias tu alegria a cualquiera ." },
+   { titulo: "Razón #1: Tú forma de ser", mensaje: "Amo que seas completamente tú, me fascina como ves al mundo y como contagias tu alegria a cualquiera ." },
    { titulo: "Razón #2: La constante", mensaje: "En un mundo lleno de variables, tú te has vuelto mi constante favorita." },
    { titulo: "Razón #3: La sonrisa", mensaje: "No sé qué fórmula usas, pero siempre logras hacerme sonreír." },
    { titulo: "Razón #4: La música", mensaje: "A veces agarro la guitarra para tocar acordes melancólicos, pero últimamente me inspiras otro tipo de canciones." },
@@ -105,7 +105,7 @@ const contenedorBuzon = document.getElementById("buzon");
 const misCartas = [];
 
 const fechaInicio = new Date();
-fechaInicio.setHours(2, 0, 0, 0);
+fechaInicio.setHours(23, 59, 59, 59);
 
 mensajesAlejandra.forEach((carta, index) => {
    const fechaDesbloqueo = new Date(fechaInicio);
