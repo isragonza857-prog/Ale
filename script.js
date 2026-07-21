@@ -126,14 +126,14 @@ function crearCartas() {
 
        divCarta.innerHTML = `
            <div class="envelope locked" id="locked-${index}">
-               <div class="envelope-body">
+               <div class="locked-content">
                    <h3>Carta #${index + 1}</h3>
                    <p class="timer" id="timer-${index}">Calculando...</p>
                </div>
            </div>
 
            <div class="envelope ready" id="ready-${index}" style="display: none;" onclick="abrirSobre(${index})">
-               <div class="envelope-body">
+               <div class="ready-content">
                    <h3>Carta #${index + 1}</h3>
                    <p class="open-text">¡Ábreme!</p>
                </div>
