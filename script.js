@@ -105,7 +105,7 @@ const contenedorBuzon = document.getElementById("buzon");
 const misCartas = [];
 
 const fechaInicio = new Date();
-fechaInicio.setHours(01, 0, 0, 0);
+fechaInicio.setHours(1, 0, 0, 0);
 
 mensajesAlejandra.forEach((carta, index) => {
    const fechaDesbloqueo = new Date(fechaInicio);
