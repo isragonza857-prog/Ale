@@ -1,9 +1,9 @@
 const mensajesAlejandra = [
-   { titulo: "Razón #1: Tú forma de ser", mensaje: "Amo que seas completamente tú, me fascina como ves al mundo y como contagias tu alegria a cualquiera ." },
-   { titulo: "Razón #2: La constante", mensaje: "En un mundo lleno de variables, tú te has vuelto mi constante favorita." },
-   { titulo: "Razón #3: La sonrisa", mensaje: "No sé qué fórmula usas, pero siempre logras hacerme sonreír." },
-   { titulo: "Razón #4: La música", mensaje: "A veces agarro la guitarra para tocar acordes melancólicos, pero últimamente me inspiras otro tipo de canciones." },
-   { titulo: "Razón #5: El tiempo", mensaje: "Si pudiera detener el tiempo, elegiría cualquiera de los días que he pasado contigo." },
+   { titulo: "Razón #1: Tu forma de ser", mensaje: "Amo que seas completamente tú, me fascina como ves al mundo y como contagias tu alegria a cualquiera." },
+   { titulo: "Razón #2: Tu sonrisa", mensaje: "Me gusta verte sonreir, cada que lo hago haces que me sienta vivo." },
+   { titulo: "Razón #3: Tu belleza", mensaje: "No hay nada en el mundo que se compare contigo, al contrario, eres tú que con tu belleza le da color a mis días." },
+   { titulo: "Carta #4: La música", mensaje: "A veces agarro la guitarra para tocar acordes melancólicos, pero últimamente me inspiras otro tipo de canciones." },
+   { titulo: "Carta #5: El tiempo", mensaje: "Si pudiera detener el tiempo, elegiría cualquiera de los días que he pasado contigo." },
    { titulo: "Carta #6: La paciencia", mensaje: "Gracias por aguantarme estos tres años. Prometo que la espera valdrá la pena." },
    { titulo: "Carta #7: El límite", mensaje: "Como en el cálculo, siento que lo nuestro tiende al infinito." },
    { titulo: "Carta #8: Los detalles", mensaje: "Son tus pequeños detalles los que me hicieron darme cuenta de todo lo que significas para mí." },
@@ -104,8 +104,7 @@ const mensajesAlejandra = [
 const contenedorBuzon = document.getElementById("buzon");
 const misCartas = [];
 
-const fechaInicio = new Date();
-fechaInicio.setHours(0, 0, 0, 0);
+const fechaInicio = new Date(2026, 6, 21, 0, 0, 0, 0);
 
 mensajesAlejandra.forEach((carta, index) => {
    const fechaDesbloqueo = new Date(fechaInicio);
